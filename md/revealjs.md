@@ -298,7 +298,7 @@ $ php -f ./test.php
 $ top
 ```
 
-<img src="../img/top.png" alt="Drawing" style="width: 700px;"/>
+<img src="../img/top.png" alt="Drawing" style="width: 600px;"/>
 
 ---
 
