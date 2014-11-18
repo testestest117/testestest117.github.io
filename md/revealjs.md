@@ -298,8 +298,7 @@ $ php -f ./test.php
 $ top
 ```
 
-![Alt Text](../img/top.png =250x)
-
+<img src="../img/top.png" alt="Drawing" style="width: 200px;"/>
 
 ---
 
