@@ -284,8 +284,6 @@ php (オプション) [ファイル名]
 $ php -f ./test.php
 ```
 
-![Alt Text](../img/top.png)
-
 ---
 
 ## top
@@ -299,6 +297,8 @@ $ php -f ./test.php
 #実行
 $ top
 ```
+
+![Alt Text](../img/top.png)
 
 
 ---
