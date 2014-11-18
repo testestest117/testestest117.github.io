@@ -298,7 +298,7 @@ $ php -f ./test.php
 $ top
 ```
 
-![Alt Text](../img/top.png)
+![Alt Text](../img/top.png =250x)
 
 
 ---
