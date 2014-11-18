@@ -273,17 +273,32 @@ $ grep -ir 'test' ./
 
 <br>
 
-使用例  
+#### 基本形
+php (オプション) [ファイル名]
+<br>
+
+#### 使用例  
 
 ```bash
 #今いるディレクトリのtext.phpファイルを実行
-php -f ./test.php
+$ php -f ./test.php
 ```
+
+![Alt Text](../img/top.png)
 
 ---
 
 ## top
 サーバの稼働状況を確認します。
+
+<br>
+
+####使用例  
+
+```bash
+#実行
+$ top
+```
 
 
 ---
