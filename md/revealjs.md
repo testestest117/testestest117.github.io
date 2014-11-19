@@ -492,7 +492,7 @@ reveal.jsとGithub Pagesで資料作成
 * Markdownだけでスライドが作成できるのはよい
 * ただし、reveal.jsの設定が面倒(CSSとか調整必要)
 * 複雑なスライドは作れない
-* サーバ必須? <div class="fragment roll-in">=>必須じゃなかった</p>
+* サーバ必須? <div class="fragment roll-in">=>必須じゃない</p>
 
 
 
