@@ -257,6 +257,10 @@ $ grep -ir 'test' ./
 
 ---
 
+## ls
+
+---
+
 
 ## php
 * phpファイルをコマンドラインから実行する場合に使います。
@@ -347,6 +351,11 @@ tail -f ./application.log | grep 'ERROR!'
 
 ---
 
+## tar
+
+
+---
+
 ## ssh
 * サーバにSSHでログインします。
 * ~.ssh/configでエイリアスを設定することで、接続がラクになります([参考](http://webkaru.net/linux/ssh-config-file/))
@@ -394,8 +403,6 @@ $ history
    28  vagrantup
    29  vagrant up
    30  vagrant ssh
-   31  ll
-   32  vagrant destroy
 ```
 
 ---
