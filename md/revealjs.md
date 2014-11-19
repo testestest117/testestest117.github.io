@@ -368,7 +368,7 @@ reveal.jsとGithub Pagesで資料作成
 ---
 
 ## Github Pagesの用意
-1. アカウント作成  
+1. Githubアカウント作成  
   ・エイリアス(+XXXXX@gmail.com)を使えばメールアドレスを用意しなくてもアカウント簡単に作れる。  
   ・アカウント作成後に、メールでアカウント認証しておかないとGithub Pages使えないようなので注意  
 
