@@ -531,4 +531,6 @@ Markdownファイルを外だししなければローカルでも使えるっぽ
 * [Reveal.jsとMarkdownでちょっとしたスライドを手軽に作る](http://n.blueblack.net/articles/2013-03-02_reveal_js_and_markdown_presentation/)
 * [Git初心者でも大丈夫！完全無料でGithub PagesにWebページを公開する方法](http://liginc.co.jp/web/html-css/html/96453)
 
+--
 
+ありがとうございました。
