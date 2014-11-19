@@ -210,7 +210,8 @@ diff -crsb --strip-trailing-cr  ./backup/ ./src/ > ./diff/diff.txt
 ---
 
 ## find
-* 難しい。
+* ファイルやディレクトリを検索します。
+* 使い方によって色々出来そうですが詳しくは知りません。。
 
 <br>
 
@@ -232,16 +233,6 @@ $ find ./test/ -name '*.*'
 ./test/examples/embedded-media.html
 ./test/examples/math.html
 ./test/examples/slide-backgrounds.html
-./test/qunit-1.12.0.css
-./test/qunit-1.12.0.js
-./test/test-markdown-element-attributes.html
-./test/test-markdown-element-attributes.js
-./test/test-markdown-slide-attributes.html
-./test/test-markdown-slide-attributes.js
-./test/test-markdown.html
-./test/test-markdown.js
-./test/test.html
-./test/test.js
 ```
 
 ---
