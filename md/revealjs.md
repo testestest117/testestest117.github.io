@@ -507,6 +507,7 @@ reveal.jsとGithub Pagesで資料作成
 ```
 
 <div class="fragment roll-in">
+
 ※修正後  
 Markdownファイルを外だししない  
 
@@ -519,6 +520,7 @@ Markdownファイルを外だししない
                 < /script>
             </section>
 ```
+
 </div>
 
 
