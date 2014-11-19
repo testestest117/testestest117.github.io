@@ -10,14 +10,14 @@ Linuxコマンドまとめ。
 
 <br>
 
-####基本形
+#### 基本形
 
 cat [ファイル名]
 
 
 <br>
 
-####使用例  
+#### 使用例  
 
 ```bash
 # /home/work/AAA.txtファイルの中身を出力
@@ -39,12 +39,12 @@ $ cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys"
 
 <br>
 
-####基本形
+#### 基本形
 cd [対象パス]
 
 <br>
 
-####使用例  
+#### 使用例  
 
 ```bash
 # /var/www/htmlディレクトリに移動
@@ -58,12 +58,12 @@ $ cd /var/www/html/
 
 <br>
 
-####基本形
+#### 基本形
 cp [コピー元パス] [コピー先パス]
 
 <br>
 
-####使用例  
+#### 使用例  
 
 ```bash
 # 今いるディレクトリのA.htmlファイルを一つ上の階層にコピー
@@ -79,12 +79,12 @@ $ cp ./A.html ..
 
 <br>
 
-####基本形
+#### 基本形
 chmod [パーミッション] [ファイル名]
 
 <br>
 
-####使用例  
+#### 使用例  
 
 ```bash
 # index.htmlのパーミッションを755に変更します
@@ -98,12 +98,12 @@ $ chmod 755 index.html
 
 <br>
 
-####基本形
+#### 基本形
 chown [所有者] [ファイル名]
 
 <br>
 
-####使用例  
+#### 使用例  
 
 ```bash
 # /var/www/html配下の所有者を全てuser01に変更する
@@ -277,6 +277,33 @@ $ php -f ./test.php
 
 ---
 
+## ps
+* 実行中のプロセスを表示します。
+* auxオプションをつけると、十分な情報がとれると思います。  
+
+<br>
+
+#### 基本形
+ps (option)
+
+<br>
+
+#### 使用例
+
+```bash
+# grepと一緒につかうと欲しい情報抽出できる
+$ ps aux | grep 'php'
+mainte   22559  0.0  0.0   9228  1048 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/au/cron; /usr/bin/php -f Postcard_Composite_Schedule.php >/dev/null 2>&1)
+mainte   22561  0.0  0.0   9228  1048 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/au/cron; /usr/bin/php -f Order_Bill.php >/dev/null 2>&1)
+mainte   22579  0.0  0.0   9228  1052 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/asbe-z/photo/cron; php Order_Bill.php >/dev/null)
+mainte   22580  0.0  0.0   9228   508 ?        S    13:19   0:00 /bin/bash -c (cd /var/backend/au/cron; /usr/bin/php -f Postcard_Composite_Schedule.php >/dev/null 2>&1)
+mainte   22581  0.0  0.0   9228  1044 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/asbe-z/photobook/cron; php Photobook_Print_Chk.php >/dev/null 2>&1)
+```
+
+
+
+---
+
 ## top
 サーバの稼働状況を確認します。
 
@@ -356,7 +383,19 @@ history (オプション)
 #### 使用例
 
 ```bash
-ssh mainte@XXX.XXX.XXX.XXX
+$ history
+   21  vagrant ssh
+   22  exit
+   23  cd Desktop/MAIN/
+   24  ll
+   25  cd share_test/
+   26  ll
+   27  cd myCentOSVM/
+   28  vagrantup
+   29  vagrant up
+   30  vagrant ssh
+   31  ll
+   32  vagrant destroy
 ```
 
 ---
@@ -381,7 +420,7 @@ reveal.jsとGithub Pagesで資料作成
   ・最初のPushの場合、ページが見えるようになるまで10分くらいかかるかも。  
   ・HTTPでPushがうまく行かない場合、リモートのアドレスにユーザ名を入れる  
     例： **（url = https://account_namae@github.com/test/test.github.io.git）**
-    
+
 ---
 
 ## reveal.jsの準備
