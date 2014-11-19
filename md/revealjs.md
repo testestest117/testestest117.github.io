@@ -258,6 +258,21 @@ $ grep -ir 'test' ./
 ---
 
 ## ls
+* 現在いるディレクトリのファイルやディレクトリ情報を表示します。
+* -a オプションでドットファイルも表示します。
+* -l オプションでファイルの詳細情報も表示します。
+* 多くの環境ではエイリアスでllコマンドが設定されていて、ls -lと同じ働きをします。
+
+#### 使用例
+
+```bash
+$ ll
+total 16
+drwxr-xr-x  4 watanabejun  staff   136 11 17 10:45 .
+drwxr-xr-x  5 watanabejun  staff   170  6 22 14:57 ..
+drwxr-xr-x  3 watanabejun  staff   102  6 22 14:57 .vagrant
+-rw-r--r--  1 watanabejun  staff  4880 11 17 10:45 Vagrantfile
+```
 
 ---
 
@@ -270,6 +285,7 @@ $ grep -ir 'test' ./
 
 #### 基本形
 php (オプション) [ファイル名]
+
 <br>
 
 #### 使用例  
@@ -283,19 +299,19 @@ $ php -f ./test.php
 
 ## ps
 * 実行中のプロセスを表示します。
-* auxオプションをつけると、十分な情報がとれると思います。  
+* auxオプションをつけると、必要十分な情報がとれると思います。  
 
 <br>
 
 #### 基本形
-ps (option)
+ps (オプション)
 
 <br>
 
 #### 使用例
 
 ```bash
-# grepと一緒につかうと欲しい情報抽出できる
+# grepと一緒につかうと欲しい情報だけ抽出できる
 $ ps aux | grep 'php'
 mainte   22559  0.0  0.0   9228  1048 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/au/cron; /usr/bin/php -f Postcard_Composite_Schedule.php >/dev/null 2>&1)
 mainte   22561  0.0  0.0   9228  1048 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/au/cron; /usr/bin/php -f Order_Bill.php >/dev/null 2>&1)
@@ -303,8 +319,6 @@ mainte   22579  0.0  0.0   9228  1052 ?        Ss   13:19   0:00 /bin/bash -c (c
 mainte   22580  0.0  0.0   9228   508 ?        S    13:19   0:00 /bin/bash -c (cd /var/backend/au/cron; /usr/bin/php -f Postcard_Composite_Schedule.php >/dev/null 2>&1)
 mainte   22581  0.0  0.0   9228  1044 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/asbe-z/photobook/cron; php Photobook_Print_Chk.php >/dev/null 2>&1)
 ```
-
-
 
 ---
 
@@ -336,7 +350,7 @@ tail (オプション) [ファイル名]
 
 <br>
 
-####使用例
+#### 使用例
 
 <br>
 
@@ -352,6 +366,23 @@ tail -f ./application.log | grep 'ERROR!'
 ---
 
 ## tar
+* ファイルをまとめたり(アーカイブ)、展開したりします。
+* アーカイブするときのオプションはzcvfとか
+* 解凍するときのオプションはzxvfとか
+
+<br>
+
+#### 使用例
+
+```bash
+# アーカイブ使用例
+$ tar zcvf /home/mainte/backup/0811_admin.tgz ./admin
+```
+
+```bash
+# 上のアーカイブしたファイルを解凍する場合
+$ tar zxvf /home/mainte/backup/0811_admin.tgz
+```
 
 
 ---
