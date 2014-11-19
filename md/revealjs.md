@@ -488,10 +488,10 @@ reveal.jsとGithub Pagesで資料作成
 ---
 
 ## 使ってみて
-<div class="fragment"> * Markdownだけでスライドが作成できるのはよい</div>
-<div class="fragment"> * ただし、reveal.jsの設定が面倒(CSSとか調整必要)</div>
-<div class="fragment"> * 複雑なスライドは作れない</div>
-<div class="fragment"> * WEBサーバ必須?めんどくさい</div> <div class="fragment">=>必須じゃなかった</div>
+<div class="fragment"> ・Markdownだけでスライドが作成できるのはよい</div>
+<div class="fragment"> ・ただし、reveal.jsの設定が面倒(CSSとか調整必要)</div>
+<div class="fragment"> ・複雑なスライドは作れない</div>
+<div class="fragment"> ・WEBサーバ必須?めんどくさい</div> <div class="fragment">=>必須じゃなかった</div>
 
 ---
 
