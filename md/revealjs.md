@@ -488,8 +488,8 @@ reveal.jsとGithub Pagesで資料作成
 ---
 
 ## 使ってみて
-<div class="fragment roll-in"> * Markdownだけでスライドが作成できるのはよい</div>
-<div class="fragment roll-in"> * ただし、reveal.jsの設定が面倒(CSSとか調整必要)</div>
+<div class="fragment fade-out"> * Markdownだけでスライドが作成できるのはよい</div>
+<div class="fragment shrink"> * ただし、reveal.jsの設定が面倒(CSSとか調整必要)</div>
 * 複雑なスライドは作れない
 * サーバ必須?めんどくさい <div class="fragment roll-in">=>必須じゃなかった</div>
 
