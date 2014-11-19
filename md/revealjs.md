@@ -485,6 +485,8 @@ reveal.jsとGithub Pagesで資料作成
 2. index.htmlと同階層にmdディレクトリを用意し、中にrevealjs.mdというファイル名でMarkdownのファイルを入れる
 3. git push origin master
 
+---
+
 
 ## 使ってみて
 * Markdownだけでスライドが作成できるのはよい
