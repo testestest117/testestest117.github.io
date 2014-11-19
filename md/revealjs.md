@@ -493,6 +493,8 @@ reveal.jsとGithub Pagesで資料作成
 * 複雑なスライドは作れない
 * サーバ必須?めんどくさい <div class="fragment roll-in">=>必須じゃなかった</p>
 
+---
+
 ## ローカルだけでスライド作成するには
 
 ```
