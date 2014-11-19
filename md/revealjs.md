@@ -436,7 +436,7 @@ $ history
    30  vagrant ssh
 ```
 
----
+--
 
 ## おまけ
 reveal.jsとGithub Pagesで資料作成
@@ -488,14 +488,15 @@ reveal.jsとGithub Pagesで資料作成
 ---
 
 ## 使ってみて
-* Markdownだけでスライドが作成できるのはよい
-* ただし、reveal.jsの設定が面倒(CSSとか調整必要)
+<div class="fragment roll-in"> * Markdownだけでスライドが作成できるのはよい</div>
+<div class="fragment roll-in"> * ただし、reveal.jsの設定が面倒(CSSとか調整必要)</div>
 * 複雑なスライドは作れない
-* サーバ必須?めんどくさい <div class="fragment roll-in">=>必須じゃなかった</p>
+* サーバ必須?めんどくさい <div class="fragment roll-in">=>必須じゃなかった</div>
 
 ---
 
 ## ローカルだけでスライド作成するには
+
 
 ```
             <section data-markdown="./md/revealjs.md"
@@ -507,7 +508,7 @@ reveal.jsとGithub Pagesで資料作成
 ```
 
 ※修正後  
-Markdownファイルを外だししない  
+Markdownファイルを外だししなければローカルでも使えるっぽい!?
 
 ```
             <section data-markdown=
