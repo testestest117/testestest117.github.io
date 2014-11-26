@@ -29,7 +29,7 @@ CCC
 
 ```bash
 #id_rsa.pubファイルの内容をauthorized_keyファイルの最終行に付け足し
-$ cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys"
+$ cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 
 ---
@@ -276,6 +276,31 @@ drwxr-xr-x  3 watanabejun  staff   102  6 22 14:57 .vagrant
 
 ---
 
+## mv
+* フォルダやファイルを移動します。
+* また、ファイル名の変更にも使用します。
+
+<br>
+
+#### 基本形
+mv [ファイル名・フォルダ名] [ファイル名・フォルダ名]
+
+<br>
+
+#### 使用例
+
+```bash
+# 現在のフォルダにあるABC.txtを/var/www/html/配下に移動します。
+mv ./ABC.txt /var/www/html/
+```
+
+```bash
+# 現在のフォルダにあるABC.txtをDEF.txtにリネームします。
+mv ABC.txt CDF.txt
+```
+
+---
+
 
 ## php
 * phpファイルをコマンドラインから実行する場合に使います。
@@ -318,6 +343,52 @@ mainte   22561  0.0  0.0   9228  1048 ?        Ss   13:19   0:00 /bin/bash -c (c
 mainte   22579  0.0  0.0   9228  1052 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/asbe-z/photo/cron; php Order_Bill.php >/dev/null)
 mainte   22580  0.0  0.0   9228   508 ?        S    13:19   0:00 /bin/bash -c (cd /var/backend/au/cron; /usr/bin/php -f Postcard_Composite_Schedule.php >/dev/null 2>&1)
 mainte   22581  0.0  0.0   9228  1044 ?        Ss   13:19   0:00 /bin/bash -c (cd /var/backend/asbe-z/photobook/cron; php Photobook_Print_Chk.php >/dev/null 2>&1)
+```
+
+---
+
+## rm
+* ファイルやフォルダを削除します。
+* フォルダを削除する場合、オプション**-r**をつけます。
+* -rをつけたとき、警告を出さないようにするには**-f**オプションもつけます。
+
+
+<br>
+
+#### 基本型
+rb (オプション) [ファイル名]
+
+<br>
+
+#### 使用例
+
+```bash
+#testディレクトリ配下を全て消す
+rm -fr ./home/test
+```
+
+---
+
+## scp
+* ローカルからサーバにファイルを転送するのに使います。(アップロード)
+* サーバからローカルにファイルを転送するのに使います。(ダウンロード)
+
+<br>
+
+#### 基本形
+**アップロード**  
+scp (オプション) [ファイル名] [ユーザ名]@[ホスト名]:[リモートのパス]
+
+**ダウンロード**  
+scp (オプション) [ユーザ名]@[ホスト名]:[ファイル名] [ローカルのパス]
+
+<br>
+
+### 使用例
+```bash
+# mainteユーザーで、IPがXXXのサーバから、ログファイルを、現在のディレクトリにダウンロードする。
+# (ダウンロードでしか使った事無い。。)
+scp mainte@XXX.XXX.XXX.XXX:/var/www/apps/photo_api/webapp/log/20141125_myapp.log ./
 ```
 
 ---
