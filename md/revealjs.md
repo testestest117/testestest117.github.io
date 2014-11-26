@@ -510,6 +510,15 @@ $ history
 
 ---
 
+## おまけ1
+
+### 使えるようになってみたい。
+* awk
+* xargs
+* sed
+
+---
+
 ## おまけ
 reveal.jsとGithub Pagesで資料作成
 
