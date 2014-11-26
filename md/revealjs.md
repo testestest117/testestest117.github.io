@@ -452,12 +452,12 @@ reveal.jsとGithub Pagesで資料作成
   ・ **[アカウント名].github.io**という名前でリポジトリを作成する。  
   ・カスタムドメインを使う方法もある?
 
-3. Push
-  ・適当にindex.htmlを用意し、作成したリポジトリに対してPush
-  ・ブラウザで**[アカウント名].github.io**にアクセスするとPushしたindex.htmlが表示される。
+3. Push 
+  ・適当にindex.htmlを用意し、作成したリポジトリに対してPush  
+  ・ブラウザで**[アカウント名].github.io**にアクセスするとPushしたindex.htmlが表示される。  
   ・最初のPushの場合、ページが見えるようになるまで10分くらいかかるかも。  
   ・HTTPでPushがうまく行かない場合、リモートのアドレスにユーザ名を入れる  
-    例： **url = https://account_namae@github.com/test/test.github.io.git**
+    例： **url = https://account_namae@github.com/test/test.github.io.git**  
 
 ---
 
