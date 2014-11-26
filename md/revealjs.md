@@ -512,7 +512,7 @@ $ history
 
 ## おまけ1
 
-使えるようになってみたいコマンド。。
+使えるようになってみたいコマンド
 <div class="fragment">・ awk</div>
 <div class="fragment">・ xargs</div>
 <div class="fragment">・ sed</div>
