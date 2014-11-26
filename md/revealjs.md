@@ -512,10 +512,10 @@ $ history
 
 ## おまけ1
 
-### 使えるようになってみたい。
-* awk
-* xargs
-* sed
+使えるようになってみたいコマンド。。
+<div class="fragment">・ awk</div>
+<div class="fragment">・ xargs</div>
+<div class="fragment">・ sed</div>
 
 ---
 
