@@ -384,11 +384,31 @@ scp (オプション) [ユーザ名]@[ホスト名]:[ファイル名] [ローカ
 
 <br>
 
-### 使用例
+#### 使用例
 ```bash
 # mainteユーザーで、IPがXXXのサーバから、ログファイルを、現在のディレクトリにダウンロードする。
 # (ダウンロードでしか使った事無い。。)
 scp mainte@XXX.XXX.XXX.XXX:/var/www/apps/photo_api/webapp/log/20141125_myapp.log ./
+```
+
+---
+
+## ssh
+* サーバにSSHでログインします。
+* ~.ssh/configでエイリアスを設定することで、接続がラクになります([参考](http://webkaru.net/linux/ssh-config-file/))
+
+<br>
+
+#### 基本形
+
+ssh [ユーザ名]@[ホスト]
+
+<br>
+
+#### 使用例
+
+```bash
+ssh mainte@XXX.XXX.XXX.XXX
 ```
 
 ---
@@ -458,25 +478,6 @@ $ tar zxvf /home/mainte/backup/0811_admin.tgz
 
 ---
 
-## ssh
-* サーバにSSHでログインします。
-* ~.ssh/configでエイリアスを設定することで、接続がラクになります([参考](http://webkaru.net/linux/ssh-config-file/))
-
-<br>
-
-#### 基本形
-
-ssh [ユーザ名]@[ホスト]
-
-<br>
-
-#### 使用例
-
-```bash
-ssh mainte@XXX.XXX.XXX.XXX
-```
-
----
 
 ## history
 * コマンドの実行履歴を表示します。
